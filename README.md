@@ -1,29 +1,51 @@
-# weather-vue
+# 天气 App
 
-This template should help get you started developing with Vue 3 in Vite.
+这是一个使用 Vue3 和 Tailwind 编写的天气 App。
 
-## Recommended IDE Setup
+## 功能
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- 可以输入城市名，获取该城市的实时天气情况。
+- 可以查看未来七天的天气预报。
+- 可以切换温度单位，支持摄氏度和华氏度两种单位。
 
-## Customize configuration
+## 使用方法
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+1. 克隆代码仓库：
 
-## Project Setup
+```bash
+git clone https://github.com/your-username/weather-app.git
+```
 
-```sh
+   进入项目目录：
+
+```bash
+cd weather-app
+```
+
+   安装依赖：
+
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+   运行项目：
 
-```sh
-npm run dev
+```bash
+npm run serve
 ```
 
-### Compile and Minify for Production
+5.在浏览器中打开：
 
-```sh
-npm run build
+```javascript
+http://localhost:5173/
 ```
+
+## 技术栈
+
+- Vue3
+- Tailwind
+- Axios
+
+## 许可证
+
+本项目基于 MIT 许可证开源。详情请参阅 [LICENSE]() 文件。
