@@ -13,22 +13,22 @@
 1. 克隆代码仓库：
 
 ```bash
-git clone https://github.com/your-username/weather-app.git
+git clone https://github.com/ECarry/weather-vue.git
 ```
 
-   进入项目目录：
+2.进入项目目录：
 
 ```bash
 cd weather-app
 ```
 
-   安装依赖：
+3.安装依赖：
 
 ```bash
 npm install
 ```
 
-   运行项目：
+4.运行项目：
 
 ```bash
 npm run serve
